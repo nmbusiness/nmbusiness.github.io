@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | N&M Business Group</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+	<link rel="icon" type="image/png" href="logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: { 
+                extend: { 
+                    fontFamily: { sans: ['Poppins', 'sans-serif'] }, 
+                    colors: { 
+                        space: { blue: '#03a4ed', purple: '#fe4370' } 
+                    } 
+                } 
+            }
+        }
+    </script>
+    <style>
+        .space-gradient { background: linear-gradient(132deg, #03a4ed 0%, #fe4370 100%); }
+        .space-gradient-text { background: linear-gradient(132deg, #03a4ed 0%, #fe4370 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .btn-gradient { background: linear-gradient(132deg, #03a4ed 0%, #fe4370 100%); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-700 font-sans">
+
+    <!-- Navigation -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="index.html" class="text-2xl font-black text-slate-800">N&M <span class="space-gradient-text">GROUP</span></a>
+            <nav class="hidden md:flex space-x-8 text-sm font-semibold text-slate-600">
+                <a href="/" class="hover:text-space-blue transition-colors">Home</a>
+                <a href="/about/" class="hover:text-space-blue transition-colors">About Us</a> 
+                <a href="/gallery/" class="hover:text-space-blue transition-colors">Gallery</a>
+                <a href="/contact/" class="hover:text-space-blue transition-colors">Contact</a>
+                <a href="/services/" class="hover:text-space-blue transition-colors">Services</a>
+            </nav>
+            <a href="https://wa.me/250788811065?text=Hello%20N%26M%20Business%20Group,%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank" class="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-full text-sm font-bold flex items-center gap-2 shadow-md transition-all">
+                <i data-lucide="message-square" class="w-4 h-4"></i> WhatsApp Us
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="pt-32 pb-24 max-w-7xl mx-auto px-6">
+        
+        <!-- Header Banner -->
+        <div class="text-center mb-16">
+            <span class="space-gradient-text font-black text-xs uppercase tracking-wider bg-slate-100 px-4 py-2 rounded-full border border-slate-200">OUR PREMIUM OFFERINGS</span>
+            <h1 class="text-3xl sm:text-5xl font-black text-slate-900 mt-4">Services & Booking</h1>
+            <p class="text-slate-500 text-sm sm:text-base mt-3 max-w-2xl mx-auto font-medium">
+                Explore our full suite of luxury mobility, city tours, real estate, and event services in Rwanda. Ready to book? Call or text us directly on WhatsApp for instant assistance.
+            </p>
+        </div>
+
+        <!-- Services Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Service 1: Airport Transfers -->
+            <div class="bg-white rounded-3xl border border-slate-100 shadow-xl overflow-hidden flex flex-col justify-between group hover:shadow-2xl transition-all duration-300">
+                <div>
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=800&q=80" alt="Airport Transfers" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-4 left-4 text-white font-bold text-lg">Airport Transfers</span>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Punctual, VIP luxury chauffeur transfers to and from Kigali International Airport with executive comfort and zero hassle.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0 flex gap-3">
+                    <a href="https://wa.me/250788811065?text=Hello,%20I%20want%20to%20book%20an%20Airport%20Transfer." target="_blank" class="flex-1 bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-4 rounded-2xl text-center text-xs flex items-center justify-center gap-2 shadow-sm transition-all">
+                        <i data-lucide="message-square" class="w-4 h-4"></i> Book on WhatsApp
+                    </a>
+                    <a href="tel:+250788811065" class="bg-slate-100 hover:bg-slate-200 text-slate-800 p-3 rounded-2xl flex items-center justify-center transition-colors" title="Call Now">
+                        <i data-lucide="phone" class="w-4 h-4 text-space-blue"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Service 2: VIP & Private Ride -->
+            <div class="bg-white rounded-3xl border border-slate-100 shadow-xl overflow-hidden flex flex-col justify-between group hover:shadow-2xl transition-all duration-300">
+                <div>
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80" alt="VIP & Private Ride" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-4 left-4 text-white font-bold text-lg">VIP & Private Ride</span>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Exclusive high-end chauffeur services for VIPs, diplomats, and private individuals requiring utmost discretion and comfort.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0 flex gap-3">
+                    <a href="https://wa.me/250788811065?text=Hello,%20I%20want%20to%20book%20a%20VIP%20%26%20Private%20Ride." target="_blank" class="flex-1 bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-4 rounded-2xl text-center text-xs flex items-center justify-center gap-2 shadow-sm transition-all">
+                        <i data-lucide="message-square" class="w-4 h-4"></i> Book on WhatsApp
+                    </a>
+                    <a href="tel:+250788811065" class="bg-slate-100 hover:bg-slate-200 text-slate-800 p-3 rounded-2xl flex items-center justify-center transition-colors" title="Call Now">
+                        <i data-lucide="phone" class="w-4 h-4 text-space-blue"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Service 3: City Tour Ride -->
+            <div class="bg-white rounded-3xl border border-slate-100 shadow-xl overflow-hidden flex flex-col justify-between group hover:shadow-2xl transition-all duration-300">
+                <div>
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=80" alt="City Tour Ride" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-4 left-4 text-white font-bold text-lg">City Tour Ride</span>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Explore the vibrant city of Kigali with personalized guided drives visiting landmarks, cultural centers, and scenic viewpoints.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0 flex gap-3">
+                    <a href="https://wa.me/250788811065?text=Hello,%20I%20would%20like%20to%20book%20a%20City%20Tour%20Ride." target="_blank" class="flex-1 bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-4 rounded-2xl text-center text-xs flex items-center justify-center gap-2 shadow-sm transition-all">
+                        <i data-lucide="message-square" class="w-4 h-4"></i> Book on WhatsApp
+                    </a>
+                    <a href="tel:+250788811065" class="bg-slate-100 hover:bg-slate-200 text-slate-800 p-3 rounded-2xl flex items-center justify-center transition-colors" title="Call Now">
+                        <i data-lucide="phone" class="w-4 h-4 text-space-blue"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Service 4: Business Ride -->
+            <div class="bg-white rounded-3xl border border-slate-100 shadow-xl overflow-hidden flex flex-col justify-between group hover:shadow-2xl transition-all duration-300">
+                <div>
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80" alt="Business Ride" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-4 left-4 text-white font-bold text-lg">Business Ride</span>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Professional corporate mobility solutions tailored for executives, business delegates, conferences, and daily commuting.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0 flex gap-3">
+                    <a href="https://wa.me/250788811065?text=Hello,%20I%20would%20like%20to%20book%20a%20Business%20Ride." target="_blank" class="flex-1 bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-4 rounded-2xl text-center text-xs flex items-center justify-center gap-2 shadow-sm transition-all">
+                        <i data-lucide="message-square" class="w-4 h-4"></i> Book on WhatsApp
+                    </a>
+                    <a href="tel:+250788811065" class="bg-slate-100 hover:bg-slate-200 text-slate-800 p-3 rounded-2xl flex items-center justify-center transition-colors" title="Call Now">
+                        <i data-lucide="phone" class="w-4 h-4 text-space-blue"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Service 5: Wedding & Special Events -->
+            <div class="bg-white rounded-3xl border border-slate-100 shadow-xl overflow-hidden flex flex-col justify-between group hover:shadow-2xl transition-all duration-300">
+                <div>
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" alt="Wedding & Special Events" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-4 left-4 text-white font-bold text-lg">Wedding & Special Events</span>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Luxury motorcade, elegant bridal cars, and seamless guest transportation for weddings, galas, and celebrations.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0 flex gap-3">
+                    <a href="https://wa.me/250788811065?text=Hello,%20I%20am%20inquiring%20about%20Wedding%20%26%20Special%20Events%20transportation." target="_blank" class="flex-1 bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-4 rounded-2xl text-center text-xs flex items-center justify-center gap-2 shadow-sm transition-all">
+                        <i data-lucide="message-square" class="w-4 h-4"></i> Book on WhatsApp
+                    </a>
+                    <a href="tel:+250788811065" class="bg-slate-100 hover:bg-slate-200 text-slate-800 p-3 rounded-2xl flex items-center justify-center transition-colors" title="Call Now">
+                        <i data-lucide="phone" class="w-4 h-4 text-space-blue"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Service 6: Tourism & Safaris -->
+            <div class="bg-white rounded-3xl border border-slate-100 shadow-xl overflow-hidden flex flex-col justify-between group hover:shadow-2xl transition-all duration-300">
+                <div>
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=800&q=80" alt="Tourism & Safaris" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-4 left-4 text-white font-bold text-lg">Tourism & Safaris</span>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Discover Rwanda’s stunning national parks, wildlife safaris, gorilla trekking tours, and custom guided itineraries.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0 flex gap-3">
+                    <a href="https://wa.me/250788811065?text=Hello,%20I%20am%20interested%20in%20a%20Tourism%20/%20Safari%20package." target="_blank" class="flex-1 bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-4 rounded-2xl text-center text-xs flex items-center justify-center gap-2 shadow-sm transition-all">
+                        <i data-lucide="message-square" class="w-4 h-4"></i> Book on WhatsApp
+                    </a>
+                    <a href="tel:+250788811065" class="bg-slate-100 hover:bg-slate-200 text-slate-800 p-3 rounded-2xl flex items-center justify-center transition-colors" title="Call Now">
+                        <i data-lucide="phone" class="w-4 h-4 text-space-blue"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Service 7: Car Rental -->
+            <div class="bg-white rounded-3xl border border-slate-100 shadow-xl overflow-hidden flex flex-col justify-between group hover:shadow-2xl transition-all duration-300">
+                <div>
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80" alt="Car Rental" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-4 left-4 text-white font-bold text-lg">Car Rental</span>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Reliable short-term and long-term vehicle rentals including SUVs, 4x4 safaris vehicles, and luxury business sedans.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0 flex gap-3">
+                    <a href="https://wa.me/250788811065?text=Hello,%20I%20would%20like%20to%20rent%20a%20car." target="_blank" class="flex-1 bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-4 rounded-2xl text-center text-xs flex items-center justify-center gap-2 shadow-sm transition-all">
+                        <i data-lucide="message-square" class="w-4 h-4"></i> Book on WhatsApp
+                    </a>
+                    <a href="tel:+250788811065" class="bg-slate-100 hover:bg-slate-200 text-slate-800 p-3 rounded-2xl flex items-center justify-center transition-colors" title="Call Now">
+                        <i data-lucide="phone" class="w-4 h-4 text-space-blue"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Service 8: House Rentals -->
+            <div class="bg-white rounded-3xl border border-slate-100 shadow-xl overflow-hidden flex flex-col justify-between group hover:shadow-2xl transition-all duration-300">
+                <div>
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80" alt="House Rentals" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-4 left-4 text-white font-bold text-lg">House Rentals</span>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Find premium furnished and unfurnished residential apartments, family homes, and luxury villas for short or long stay.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0 flex gap-3">
+                    <a href="https://wa.me/250788811065?text=Hello,%20I%20am%20looking%20for%20a%20house%20to%20rent." target="_blank" class="flex-1 bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-4 rounded-2xl text-center text-xs flex items-center justify-center gap-2 shadow-sm transition-all">
+                        <i data-lucide="message-square" class="w-4 h-4"></i> Inquire on WhatsApp
+                    </a>
+                    <a href="tel:+250788811065" class="bg-slate-100 hover:bg-slate-200 text-slate-800 p-3 rounded-2xl flex items-center justify-center transition-colors" title="Call Now">
+                        <i data-lucide="phone" class="w-4 h-4 text-space-blue"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Service 9: Land & Property Sales -->
+            <div class="bg-white rounded-3xl border border-slate-100 shadow-xl overflow-hidden flex flex-col justify-between group hover:shadow-2xl transition-all duration-300">
+                <div>
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80" alt="Land Sales" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-4 left-4 text-white font-bold text-lg">Land & Property Sales</span>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Verified prime residential and commercial land plots available for sale across Kigali and top regions in Rwanda.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0 flex gap-3">
+                    <a href="https://wa.me/250788811065?text=Hello,%20I%20want%20information%20about%20land%20and%20property%20sales." target="_blank" class="flex-1 bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-4 rounded-2xl text-center text-xs flex items-center justify-center gap-2 shadow-sm transition-all">
+                        <i data-lucide="message-square" class="w-4 h-4"></i> Inquire on WhatsApp
+                    </a>
+                    <a href="tel:+250788811065" class="bg-slate-100 hover:bg-slate-200 text-slate-800 p-3 rounded-2xl flex items-center justify-center transition-colors" title="Call Now">
+                        <i data-lucide="phone" class="w-4 h-4 text-space-blue"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Contact Banner -->
+        <div class="mt-16 bg-white p-8 sm:p-12 rounded-3xl border border-slate-100 shadow-xl text-center relative overflow-hidden">
+            <h2 class="text-2xl sm:text-3xl font-black text-slate-900 mb-3">Ready to Book or Have Questions?</h2>
+            <p class="text-slate-500 text-sm sm:text-base max-w-xl mx-auto mb-8 font-medium">
+                Contact our customer support directly via Phone Call or WhatsApp for immediate confirmation.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="https://wa.me/250788811065?text=Hello%20N%26M%20Business%20Group,%20I%20would%20like%20to%20book%20a%20service." target="_blank" class="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-4 px-8 rounded-full flex items-center justify-center gap-3 transition-all shadow-lg shadow-emerald-500/20 text-sm">
+                    <i data-lucide="message-square" class="w-5 h-5"></i>
+                    WhatsApp: +250 788 811 065
+                </a>
+                <a href="tel:+250788811065" class="w-full sm:w-auto btn-gradient text-white font-bold py-4 px-8 rounded-full flex items-center justify-center gap-3 transition-all shadow-lg shadow-space-blue/20 text-sm">
+                    <i data-lucide="phone" class="w-5 h-5"></i>
+                    Call: +250 788 811 065
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white py-12 text-center text-xs text-slate-400">&copy; 2026 N&M Business Group. All rights reserved.</footer>
+    
+    <script>lucide.createIcons();</script>
+</body>
+</html>
