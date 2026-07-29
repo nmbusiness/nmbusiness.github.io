@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | N&M Business Group</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+	<link rel="icon" type="image/png" href="logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: { extend: { fontFamily: { sans: ['Poppins', 'sans-serif'] }, colors: { space: { blue: '#03a4ed', purple: '#fe4370' } } } }
+        }
+    </script>
+    <style>
+        .space-gradient { background: linear-gradient(132deg, #03a4ed 0%, #fe4370 100%); }
+        .space-gradient-text { background: linear-gradient(132deg, #03a4ed 0%, #fe4370 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .btn-gradient { background: linear-gradient(132deg, #03a4ed 0%, #fe4370 100%); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-700 font-sans">
+
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="index.html" class="text-2xl font-black text-slate-800">N&M <span class="space-gradient-text">GROUP</span></a>
+            <nav class="hidden md:flex space-x-8 text-sm font-semibold text-slate-600">
+                <a href="index.html" class="hover:text-space-blue transition-colors">Home</a>
+                <a href="about.html" class="hover:text-space-blue transition-colors">About Us</a>
+                <a href="services.html" class="text-space-blue font-bold">Services</a>
+                <a href="gallery.html" class="hover:text-space-blue transition-colors">Gallery</a>
+                <a href="contact.html" class="hover:text-space-blue transition-colors">Contact</a>
+            </nav>
+            <a href="https://wa.me/250788811065?text=Hello%20N%26M%20Business%20Group,%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank" class="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-full text-sm font-bold flex items-center gap-2 shadow-md transition-all">
+                <i data-lucide="message-square" class="w-4 h-4"></i> WhatsApp Us
+            </a>
+        </div>
+    </header>
+
+    <div class="pt-32 pb-24 max-w-7xl mx-auto px-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div class="space-y-6">
+                <span class="space-gradient-text font-extrabold text-xs uppercase tracking-wider">GET IN TOUCH</span>
+                <h1 class="text-4xl font-black text-slate-900">Feel Free To Contact Us Any Time</h1>
+                <p class="text-slate-500 leading-relaxed">Reach out directly for general inquiries, land plot viewing appointments, or customized tour itineraries.</p>
+
+                <div class="space-y-4 pt-4">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 rounded-2xl space-gradient text-white flex items-center justify-center flex-shrink-0 shadow-md">
+                            <i data-lucide="map-pin" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <p class="text-xs font-bold text-slate-400 uppercase">Location</p>
+                            <p class="font-bold text-slate-800">Kicukiro, Kigali, Rwanda</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 rounded-2xl space-gradient text-white flex items-center justify-center flex-shrink-0 shadow-md">
+                            <i data-lucide="phone" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <p class="text-xs font-bold text-slate-400 uppercase">Phone / WhatsApp</p>
+                            <p class="font-bold text-slate-800">+250 788 811 065</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 rounded-2xl space-gradient text-white flex items-center justify-center flex-shrink-0 shadow-md">
+                            <i data-lucide="mail" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <p class="text-xs font-bold text-slate-400 uppercase">Email Address</p>
+                            <p class="font-bold text-slate-800">aamahoro2@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="relative">
+    <div class="relative group">
+        <!-- Mount Karisimbi / Virunga Range -->
+        <img src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQh0dY1vq7U3FrMDj3tMPHP2EdgpB5rFfrYYn6sYhEK10UyLQ1ktOs5A1P-zXybfdKaIkcVeoxwB17H740" 
+             alt="Mount Karisimbi Volcanoes National Park Rwanda" 
+             class="w-full h-[450px] object-cover rounded-[30px] shadow-lg border-4 border-white transition-all duration-500">
+        
+        <!-- Gradient Overlay for contrast -->
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent rounded-[30px]"></div>
+
+        <!-- Floating Glassmorphism Badge -->
+        <div class="absolute bottom-6 left-6 bg-white/95 backdrop-blur-md p-5 rounded-2xl shadow-xl border border-white/40 max-w-sm">
+            <div class="flex items-center gap-2 mb-1">
+                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                <p class="text-xs font-extrabold text-slate-900 uppercase tracking-wider">Mount Karisimbi Expeditions</p>
+            </div>
+            <p class="text-xs text-slate-600 font-medium leading-relaxed">
+                Explore Rwanda's highest peak at 4,507m. We offer all-terrain 4x4 rentals, private chauffeur transfers, and luxury safari logistics across Musanze.
+            </p>
+        </div>
+    </div>
+</div>
+</div>
+        </div>
+    </div>
+
+    <footer class="bg-slate-900 text-white py-12 text-center text-xs text-slate-400">&copy; 2026 N&M Business Group. All rights reserved.</footer>
+    <script>lucide.createIcons();</script>
+</body>
+</html>
