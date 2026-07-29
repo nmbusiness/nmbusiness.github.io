@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N&M Business Group | Travel & Real Estate in Rwanda</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+	<link rel="icon" type="image/png" href="logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Poppins', 'sans-serif'] },
+                    colors: {
+                        space: {
+                            blue: '#03a4ed',
+                            purple: '#fe4370',
+                            gradientStart: '#03a4ed',
+                            gradientEnd: '#fe4370',
+                            dark: '#1e2029',
+                            lightBg: '#f7f7f7'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .space-gradient { background: linear-gradient(132deg, #03a4ed 0%, #fe4370 100%); }
+        .space-gradient-text {
+            background: linear-gradient(132deg, #03a4ed 0%, #fe4370 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .btn-gradient {
+            background: linear-gradient(132deg, #03a4ed 0%, #fe4370 100%);
+            transition: all 0.3s ease;
+        }
+        .btn-gradient:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(3, 164, 237, 0.3);
+        }
+        .space-card {
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.06);
+            border-radius: 23px;
+            transition: all 0.3s ease;
+        }
+        .space-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0px 10px 30px rgba(3, 164, 237, 0.15);
+        }
+    </style>
+</head>
+<body class="bg-white text-slate-700 font-sans antialiased">
 
+    <!-- Header Navigation -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="index.html" class="text-2xl font-black text-slate-800">N&M <span class="space-gradient-text">GROUP</span></a>
+            <nav class="hidden md:flex space-x-8 text-sm font-semibold text-slate-600">
+                <a href="/" class="hover:text-space-blue transition-colors">Home</a>
+                <a href="/about/" class="hover:text-space-blue transition-colors">About Us</a>
+                <a href="/gallery/" class="hover:text-space-blue transition-colors">Gallery</a>
+                <a href="/contact/" class="hover:text-space-blue transition-colors">Contact</a>
+				 <a href="/services/"class="hover:text-space-blue transition-colors">Services</a>
+            </nav>
+            <a href="https://wa.me/250788811065?text=Hello%20N%26M%20Business%20Group,%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank" class="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-full text-sm font-bold flex items-center gap-2 shadow-md transition-all">
+                <i data-lucide="message-square" class="w-4 h-4"></i> WhatsApp Us
+            </a>
+        </div>
+    </header>
+</body>
+</html>
